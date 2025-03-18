@@ -1,0 +1,83 @@
+
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-color:rgba(127, 219, 255, 0.493);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addBtn {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #2d3436;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+#addBtn:hover{
+    font-size: 1.5rem;
+}
+
+.note{
+    width:20%;
+    height:45vh;
+    background-color: azure;
+    margin: 15px;
+    margin-top: 55px;
+}
+
+.tool{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.tool i:hover{
+    font-size:2rem;
+    background-color: blue;
+}
+
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
